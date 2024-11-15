@@ -1,0 +1,30 @@
+@media screen and (max-width: 990px) {
+  .header {
+    width: 100%;
+    padding: 0.5rem 2rem;
+  }
+
+  .linkBox {
+    display: inline;
+    text-align: center;
+  }
+
+  .linkBox h3 {
+    font-size: 0.9rem;
+  }
+
+  .profile_box {
+    display: none;
+  }
+
+  .frist img {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  
+}
+
+@media screen and (max-width: 470px) {
+}
