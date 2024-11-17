@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Regular;
 }
 
 #main {
@@ -10,6 +10,21 @@
   height: 100%;
   position: relative;
   background-color: #f1f1f1;
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(/font/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: Semibold;
+  src: url(/font/SourceSansPro-Semibold.ttf);
+}
+
+@font-face {
+  font-family: Light;
+  src: url(/font/SourceSansPro-Light.ttf);
 }
 
 /* Header */
@@ -266,17 +281,153 @@
 
 .btns button {
   width: 100%;
-  padding: 1rem ;
-}
-
-.container .center {
-  width: 50%;
-  height: 100vh;
-  background-color: red;
+  padding: 1rem;
 }
 
 .container .last {
   width: 25%;
   height: 100vh;
   background-color: yellow;
+}
+
+.right .btns {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-top: 1px solid black;
+}
+
+.btns button {
+  background-color: white;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btns button i {
+  margin-right: 10px;
+  color: #0095ff;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.right .two {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+  margin-top: 1.5rem;
+  border-radius: 5px;
+}
+
+.right .two {
+  padding: 1rem 1.5rem;
+}
+
+.two h2 {
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.two h4 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  padding-bottom: 1rem;
+  color: #707070;
+}
+
+.two h4:nth-of-type(2) {
+  padding-top: 1rem;
+}
+
+.user h3 {
+  padding-bottom: 10px;
+  color: #707070;
+  font-size: 1rem;
+}
+
+.user h3 i {
+  padding-right: 5px;
+  font-size: 1rem;
+}
+
+.user h3 i,
+span {
+  color: #0095ff;
+  font-size: 1rem;
+}
+
+.user h3 span {
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.two button {
+  background: none;
+  border: none;
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: #0095ff;
+  font-weight: 600;
+}
+
+.container .center {
+  width: 50%;
+  height: 100vh;
+  border-radius: 5px;
+  background-color: red;
+}
+
+.center .upload {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+}
+
+.upload .share {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 1rem 2rem;
+}
+
+.share img {
+  width: 10%;
+}
+
+.share span {
+  color: #707070;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.btnUpload {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+  gap: 5px;
+}
+
+.btnUpload button {
+  width: 100%;
+  padding: 1rem 0;
+  border: none;
+  box-shadow: 0 1px 1px 2px #3737371f;
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnUpload button i {
+  padding-right: 0.5rem;
+  font-size: 1.1rem;
+  color: #0095ff;
+}
+
+.btnUpload button:nth-of-type(4) {
+  background-color: #0095ff;
+  color: white;
 }
