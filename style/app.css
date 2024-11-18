@@ -7,7 +7,7 @@
 
 #main {
   width: 100%;
-  height: 100%;
+  height: 630vh;
   position: relative;
   background-color: #f1f1f1;
 }
@@ -116,7 +116,10 @@
 }
 
 .profile_box img {
-  width: 18%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .profile_box h4 {
@@ -129,11 +132,12 @@
   height: 20rem;
   background-color: white;
   box-shadow: 0 5px 7px 5px #a9a9a939;
-  position: absolute;
+  position: fixed;
   top: 5rem;
   right: 3rem;
   opacity: 0;
   padding: 2rem 1rem;
+  z-index: 99;
 }
 
 .profile.show {
@@ -147,7 +151,10 @@
 }
 
 .proText img {
-  width: 15%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .proText h2 {
@@ -203,7 +210,7 @@
   width: 100%;
   padding: 8rem 5rem;
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 1rem;
 }
 
@@ -231,7 +238,6 @@
 .One .proCir {
   width: 80px;
   height: 80px;
-  background-color: red;
   border-radius: 50%;
   position: absolute;
   top: 5rem;
@@ -241,6 +247,7 @@
 .One .proCir img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
   object-fit: cover;
 }
 
@@ -376,13 +383,14 @@ span {
   width: 50%;
   height: 100vh;
   border-radius: 5px;
-  background-color: red;
 }
 
 .center .upload {
   width: 100%;
   background-color: white;
   box-shadow: 0 0 3px 2px #cdcdcd1d;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .upload .share {
@@ -393,7 +401,10 @@ span {
 }
 
 .share img {
-  width: 10%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .share span {
@@ -430,4 +441,180 @@ span {
 .btnUpload button:nth-of-type(4) {
   background-color: #0095ff;
   color: white;
+}
+
+.postContainer {
+  width: 100%;
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+} 
+
+.postContainer .post {
+  width: 100%;
+  background-color: white;
+  padding: 2rem 1rem;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.post .top {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.top .flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.top img {
+  width: 8%;
+}
+
+.textpost span {
+  color: #707070;
+}
+
+.post .imagesBox {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.imagesBox img {
+  width: 100%;
+  height: 40rem;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.post .bottom {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bottom .icone {
+  display: flex;
+  align-items: center;
+}
+
+.bottom .icone i {
+  font-size: 1.2rem;
+  color: #0095ff;
+}
+
+.bottom .icone i:nth-of-type(2) {
+  color: red;
+}
+
+.bottom .icone i:nth-of-type(3) {
+  color: yellow;
+}
+
+.bottom .icone span {
+  margin-left: 5px;
+}
+
+.like {
+  width: 100%;
+  background-color: white;
+  border-top: 1px solid #d7d7d7;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.like .iconeLink {
+  margin-top: 15px;
+  cursor: pointer;
+  padding: 1rem 2rem;
+}
+
+.like .iconeLink:hover {
+  background-color: #d1d1d1a9; 
+  border-radius: 10px;
+}
+
+.iconeLink i {
+  font-size: 1.5rem;
+  margin-right: 5px;
+  color: #707070;
+}
+
+.iconeLink span {
+  color: #707070;
+  font-weight: 600;
+}
+
+.container .left {
+  width: 25%;
+  height: 50vh;
+  background-color: white;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+}
+
+.left .textTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.textTop h2 {
+  color: black;
+  font-size: 1.3rem;
+  font-size: Semibold;
+}
+
+.textTop span {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 700;
+  background-color: #a5a5a5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_text {
+  padding-top: 1rem;
+}
+
+.left_text h2 {
+  font-size: 1.1rem;
+  color: #3b3b3b;
+  padding: 2px 0;
+}
+
+.left_text span {
+  color: #959595;
+  font-size: 1.2rem;
+}
+
+.left button {
+  background: none;
+  border: none;
+  padding-top: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0095ff;
+  cursor: pointer;
+}
+
+.jods_you {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
 }
