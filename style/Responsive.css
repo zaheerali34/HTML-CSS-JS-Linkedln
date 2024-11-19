@@ -31,6 +31,14 @@
     top: 5rem;
     right: 1rem;
   }
+
+  .left {
+    display: none;
+  }
+
+  .container {
+    padding: 8rem 3rem;
+  }  
 }
 
 @media screen and (max-width: 720px) {
@@ -59,6 +67,29 @@
   .profile_box {
     display: none;
   }
+
+  .container {
+    width: 100%;
+    padding: 5rem 1rem;
+    flex-direction: column;
+  }  
+
+  .container .right {
+    width: 100%;
+  }
+
+  .container .center {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .flex img {
+    width: 3rem;
+  }
+
+  .textpost h3 {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 470px) {
@@ -86,5 +117,50 @@
     position: absolute;
     top: 3.5rem;
     right: 0.5rem;
+  }
+
+  .like {
+    width: 100%;
+  }
+
+  .like .iconeLink {
+    margin-top: 10px;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+  }
+
+  .iconeLink i {
+    font-size: 1.2rem;
+  }  
+
+  .iconeLink span {
+    font-size: 15px;
+  }
+  
+  .container {
+    width: 100%;
+    padding: 5rem 0.5rem;
+    flex-direction: column;
+  }  
+
+  .postContainer .post {
+    width: 100%;
+    padding: 2rem 0.5rem;
+  }
+  
+  .center .upload {
+    margin-top: 6rem;
+  }
+
+  .right .btns {
+    gap: 5px;
+  }
+
+  .right .two {
+    padding: 2.5rem 0.5rem;
+  }
+
+  .upload .share {
+    padding: 1rem 0.8rem;
   }
 }
