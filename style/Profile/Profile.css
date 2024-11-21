@@ -13,23 +13,72 @@
 .right {
   width: 75%;
   height: 100vh;
-  background-color: red;
+  background-color: white;
   box-shadow: 0 0 3px 2px #cdcdcd1d;
   border-radius: 10px;
+  position: relative;
 }
 
 .right .topImg {
     width: 100%;
     height: 10rem;
+    position: relative;
 }
 
 .topImg img {
     width: 100%;
-    height: 15rem;
+    height: 30vh;
     object-fit: cover;
     overflow: hidden;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+.topImg .proImage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 110px;
+  left: 48px;
+  overflow: hidden;
+}
+
+.proImage img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover ;
+}
+
+.textPro {
+  position: absolute;
+  top: 18rem;
+  left: 3rem;
+  z-index: 10;
+}
+
+.textPro h1 {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.textPro h3 {
+  font-size: 1rem;
+  color: rgb(132, 132, 132);
+  font-weight: 300;
+}
+
+.btnsPro {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btnsPro button {
+ padding: 1rem 2rem;
+ margin-top: 10px;
+
 }
 
 .left {
