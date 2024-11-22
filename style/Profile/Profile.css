@@ -167,6 +167,123 @@
   padding-top: 5px;
 }
 
+.activityPro {
+  width: 100%;
+  padding: 2rem 1rem;
+  background-color: white;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.activityPro .toppro {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toppro .follow h2 {
+  font-size: 1.2rem;
+  padding: 3px 0;
+}
+
+.toppro .follow span {
+  font-size: 0.9rem;
+  color: #037beb;
+  font-weight: bold;
+}
+
+.toppro button {
+  padding: 0.5rem 1.5rem;
+  background: none;
+  outline: none;
+  border-radius: 2rem;
+  border: 2px #037beb solid;
+  font-weight: bold;
+  color: #037beb;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.toppro button:hover {
+  background-color: #198cf737;
+  border: 2px #000000 solid;
+}
+
+.btnsbg {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btnsbg button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  border: 1px solid black;
+  font-weight: bold;
+  color: #037beb;
+  background: none;
+  transition: all 0.3s;
+}
+
+.btnsbg button:nth-of-type(1) {
+  background-color: green;
+  color: white;
+  border: 1px solid green;
+}
+
+.btnsbg button:nth-of-type(1):hover {
+  background-color: rgb(5, 87, 5);
+}
+
+.btnsbg button:hover {
+  background-color: rgba(128, 128, 128, 0.206);
+}
+
+.postpro {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.uppost h4 {
+  color: rgb(63, 63, 63);
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.uppost h4 span {
+  color: rgb(101, 101, 101);
+  font-weight: 500;
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.postImg {
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.postImg img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.postImg .profile_text {
+  font-size: 1rem;
+  color: black;
+}
+
+
 .left {
   width: 25%;
   height: 100vh;
