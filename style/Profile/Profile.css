@@ -283,6 +283,108 @@
   color: black;
 }
 
+.postpro .show {
+  width: 100%;
+  text-align: center;
+  border-top: 1px solid rgb(176, 176, 176);
+  padding: 10px 0;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+
+.postpro .show:hover {
+  background-color: #cbcbcb38;
+}
+
+.show h3 {
+  font-size: 1rem;
+  color: #525252;
+} 
+
+.skills {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+  margin-top: 2rem;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skills .skillsTop {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.skillsTop h2 {
+  font-size: 1.5rem;
+  padding: 3px 0;
+}
+
+.skillsTop .icone i {
+  font-size: 1.5rem;
+  margin-left: 6px;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s;
+  color: #4d4d4d;
+}
+
+.skillsTop .icone i:hover {
+  background-color: rgba(157, 157, 158, 0.24);
+}
+
+.skill {
+  padding: 0 1rem;
+}
+
+.skill h3 {
+  font-size: 1.1rem;
+  color: #2c2c2c;
+  padding: 15px 0;
+}
+
+.skill span {
+  color: #4d4d4d;
+  font-size: 1.1rem;
+}
+
+.skill span i {
+  font-size: 1.5rem;
+  margin-right: 5px;
+}
+
+.skill h4 {
+  font-size: 1.1rem;
+  color: #3c3c3c;
+  padding: 15px 0;
+  border-top: 1px solid rgb(172, 172, 172);
+  margin-top: 1rem;
+}
+
+.skillbtn {
+  width: 100%;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-top: 1px solid rgba(172, 172, 172, 0.553);
+}
+
+.skillbtn:hover {
+  background-color: #cbcbcb8f;
+}
+
+.skillbtn h2 {
+  font-size: 1rem;
+  color: #3c3c3c;
+}
+
+.skillbtn h2 i {
+  margin-left: 10px;
+}
 
 .left {
   width: 25%;
