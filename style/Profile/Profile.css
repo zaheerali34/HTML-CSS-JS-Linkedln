@@ -172,7 +172,7 @@
   padding: 2rem 1rem;
   background-color: white;
   box-shadow: 0 0 3px 2px #cdcdcd1d;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 10px;
 }
 
@@ -305,7 +305,7 @@
   width: 100%;
   background-color: white;
   box-shadow: 0 0 3px 2px #cdcdcd1d;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -386,10 +386,110 @@
   margin-left: 10px;
 }
 
+.interests {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 0 3px 2px #cdcdcd1d;
+  margin-top: 1rem;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.interests h2 {
+  font-size: 1rem;
+  padding: 5px 0;
+}
+
+.interests ul {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  color: #3c3c3c;
+  font-weight: 600;
+}
+
+.interests ul li:nth-of-type(1) {
+  color: green;
+  border-bottom: 3px solid green;
+  padding: 1rem 0;
+}
+
 .left {
   width: 25%;
   height: 100vh;
-  background-color: rebeccapurple;
+  background-color: white;
   box-shadow: 0 0 3px 2px #cdcdcd1d;
   border-radius: 10px;
+  padding: 1rem;
+}
+
+.left h3 {
+  font-size: 0.9rem;
+  padding: 3px 0;
+  color: #4d4d4d;
+}
+
+.left .icone {
+  font-size: 1rem;
+  color: #4d4d4d;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+}
+
+.left .icone i {
+  margin-right: 3px;
+}
+
+.left .icone span {
+  color: #909090;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.proCont {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.proCont .boximg {
+  width: 100%;
+  display: flex;
+  align-items:start;
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.boximg img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.textimg h4 {
+  font-size: 0.8rem;
+}
+
+.textimg p {
+  color: #545454;
+  font-size: 0.8rem;
+  padding: 6px 0;
+}
+
+.boximg .textimg button {
+  background-color: none;
+  padding: 0.6rem 2rem;
+  border-radius: 50px;
+  border: 2px solid rgb(88, 88, 88);
+  margin-top: 5px;
+  color: #525252;
+}
+
+.boximg .textimg button i {
+  margin-right: 5px;
 }
