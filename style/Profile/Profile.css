@@ -416,22 +416,22 @@
   padding: 1rem 0;
 }
 
-.left {
+.profileContainer .left {
   width: 25%;
-  height: 100vh;
+  height: 100%;
   background-color: white;
   box-shadow: 0 0 3px 2px #cdcdcd1d;
   border-radius: 10px;
   padding: 1rem;
 }
 
-.left h3 {
+.profileContainer .left h3 {
   font-size: 0.9rem;
   padding: 3px 0;
   color: #4d4d4d;
 }
 
-.left .icone {
+.profileContainer .left .icone {
   font-size: 1rem;
   color: #4d4d4d;
   padding: 5px 0;
@@ -439,11 +439,11 @@
   align-items: center;
 }
 
-.left .icone i {
+.profileContainer .left .icone i {
   margin-right: 3px;
 }
 
-.left .icone span {
+.profileContainer .left .icone span {
   color: #909090;
   font-weight: 600;
   font-size: 0.8rem;
@@ -492,4 +492,56 @@
 
 .boximg .textimg button i {
   margin-right: 5px;
+}
+
+.top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top .topvoices {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.top .topvoices img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.texttop h3 {
+  font-size: 1rem;
+}
+
+.texttop h4 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #2f2f2f;
+  padding: 4px 0;
+}
+
+.texttop h5 {
+  color: #767676;
+  font-weight: 400;
+}
+
+.texttop button {
+  padding: 0.5rem 2rem;
+  margin-top: 10px;
+  border-radius: 50px;
+  background: none;
+  font-weight: 600;
+  border: #4d4d4d solid 2px;
+  color: #4d4d4d;
+}
+
+.texttop button i {
+  margin-right: 5px;
+  font-size: 1rem;
 }

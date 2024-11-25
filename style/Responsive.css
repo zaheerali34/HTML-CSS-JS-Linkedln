@@ -38,7 +38,7 @@
 
   .container {
     padding: 8rem 3rem;
-  }  
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -53,7 +53,7 @@
   }
 
   .inputBox input {
-   display: none;
+    display: none;
   }
 
   .frist img {
@@ -72,7 +72,7 @@
     width: 100%;
     padding: 5rem 1rem;
     flex-direction: column;
-  }  
+  }
 
   .container .right {
     width: 100%;
@@ -97,7 +97,6 @@
     width: 30%;
     object-fit: cover;
   }
-  
 
   .linkBox h3 {
     display: none;
@@ -131,23 +130,23 @@
 
   .iconeLink i {
     font-size: 1.2rem;
-  }  
+  }
 
   .iconeLink span {
     font-size: 15px;
   }
-  
+
   .container {
     width: 100%;
     padding: 5rem 0.5rem;
     flex-direction: column;
-  }  
+  }
 
   .postContainer .post {
     width: 100%;
     padding: 2rem 0.5rem;
   }
-  
+
   .center .upload {
     margin-top: 6rem;
   }
